@@ -1,10 +1,8 @@
-// === Passive Transport + Chemotaxis (Run Away from Mouse) ===
-// All randomness uses Math.random(); no random() or ? operators used.
+
 
 Particle[] molecules;
 int numMolecules = 120;
 
-// Membrane and channel
 float membraneY;
 float channelX, channelWidth, channelHeight;
 
